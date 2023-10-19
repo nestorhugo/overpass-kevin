@@ -19,8 +19,8 @@ $validator->field('Email')->isEmail();
 $validator->field('Message')->maxLength(6000);
 
 
-$pp->requireReCaptcha();
-$pp->getReCaptcha()->initSecretKey('copy-your-secret-key-here');
+//$pp->requireReCaptcha();
+//$pp->getReCaptcha()->initSecretKey('copy-your-secret-key-here');
 
 
 $pp->sendEmailTo('nestorklauck@gmail.com'); // ← Your email here
